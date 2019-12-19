@@ -20,7 +20,7 @@ if (isNaN(numeroKm) || isNaN(etaPasseggero)) {
   } else {
       if (etaPasseggero < 18) {
        console.log(prezzoBiglietto - (prezzoBiglietto * 20) / 100);}
-  } else if (etaPasseggero >= 65){
+   else if (etaPasseggero >= 65){
       console.log(prezzoBiglietto - (prezzoBiglietto * 40) / 100);
   } else
     console.log(prezzoBiglietto);
